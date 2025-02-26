@@ -1,12 +1,4 @@
 import { useState, useEffect } from 'react';
-import resume from "./assets/resume.pdf"
-import {
-  Mail, ExternalLink, Code, Monitor, Layout, Book,
-  Award, Coffee, Terminal, ChevronRight, ArrowRight, Eye, Heart, User, Briefcase, Download, Calendar,
-  MapPin, Phone,
-  Linkedin,
-  Github
-} from 'lucide-react';
 import './styles.css';
 import { ProjectsCard } from './components/ProjectsCard';
 import { Footer } from './components/Footer';
@@ -15,7 +7,7 @@ import { ExpoerienceSection } from './components/ExperienceSection';
 import { HeroSection } from './components/HeroSection';
 
 function App() {
-  const [scrollY, setScrollY] = useState(0);
+  const [_scrollY, setScrollY] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {

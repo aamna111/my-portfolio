@@ -1,5 +1,3 @@
-import { ArrowRight, Mail } from "lucide-react"
-
 export const HeroSection =()=> {
     return(
         <section id="about" className="relative min-h-screen pt-20">

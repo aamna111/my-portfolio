@@ -30,7 +30,7 @@ const experiences = [
 ];
 
 export const ExpoerienceSection = () => {
-  const [currentExperience, setCurrentExperience] = useState(0);
+  const [_currentExperience, setCurrentExperience] = useState(0);
   return (<section id="experience" className="py-20 bg-gray-900/50">
     <div className="max-w-7xl mx-auto px-6">
       <h2 className="text-3xl font-bold mb-12">Professional Experience</h2>
