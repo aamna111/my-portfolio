@@ -14,7 +14,7 @@ const projects = [
   },
   {
     id: "Product Store",
-    description: "A simple fullstack application that to create, update and delete products in products store.",
+    description: "A user-friendly product management system where you can easily add, edit, and remove items from your store with just a few clicks. Designed with real people in mind to make inventory tracking feel less like a chore.",
     tech: ["React", "Node js", "Express","Mongo DB", "Zustand"] ,
     img: productStorefrom,
     links: [
